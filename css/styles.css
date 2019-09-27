@@ -16,3 +16,9 @@ body{
     text-align: center;
     color: white;
 }
+.container{
+    text-align: center;
+}
+.mouse{
+    padding: 40px;
+}
