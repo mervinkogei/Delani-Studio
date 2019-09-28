@@ -93,3 +93,11 @@ button{
 #design1, #design2, #design3{
     display: none;
 }
+.img1,.img2,.img3 {
+    cursor: pointer;
+    color: #0088cc;
+    }
+    
+.img1,.img2,.img3:hover {
+    text-decoration: underline;
+    }
