@@ -1,10 +1,15 @@
-$(document).ready(function(){
-$( "#blank form" ).submit(function( event ) {
- $( "input" ).first().val();
- $( "input" ).email().val();
-   
-    $( "span" ).text("" ).show().fadeOut( 1000 );
-    event.preventDefault();
-  });
+$(document).ready(function() {
+  $(".img1").click(function() {
+    $("#design1").toggle();
+      });
 });
-  
+$(document).ready(function() {
+  $(".img2").click(function() {
+    $("#design2").toggle();
+      });
+});
+$(document).ready(function() {
+  $(".img3").click(function() {
+    $("#design3").toggle();
+      });
+});
