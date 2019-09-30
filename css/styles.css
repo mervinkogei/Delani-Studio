@@ -58,7 +58,7 @@
 .contact{
     background-image: url("/assets/backgrounds/c_image.jpg");
     text-align: center;
-    height: 85vh;
+    height: 80vh;
     color: white;
     background-color:black;
     background-size: cover;
@@ -80,8 +80,11 @@
 }
 #name, #email{
     background-color: transparent;
-    width: 40%;
+    width:50%;
     
+}
+.mc-field-group{
+    padding-top: 20px;
 }
 footer{
     text-align: center;
